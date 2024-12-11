@@ -62,6 +62,7 @@ jobs:
         with:
           workload_identity_provider: '${{ env.WORKLOAD_IDENTITY_PROVIDER }}'
           service_account: 'github-demo-sc@git-hub-action-72709.iam.gserviceaccount.com'
+          debug: true
 
       # BEGIN - Docker auth and build
       #
